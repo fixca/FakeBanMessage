@@ -1,0 +1,10 @@
+name: FakeBanMessage
+main: me.fixca.fakeban.main.FakeBan
+version: 1.0
+api-version: 1.13
+commands:
+  fakeban:
+    usage: /fakeban <playerName> [rank]
+    description: Display a fake ban message.
+    permission: fakeban.admin
+    permission-message: §cYou are not allowed to use this command!
